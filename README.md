@@ -8,7 +8,7 @@ This project tackles the **localization** and **classification** of tuna fish sp
 The dataset used in this project comes from the [Nature Conservancy Fisheries Monitoring Challenge on Kaggle](https://www.kaggle.com/competitions/the-nature-conservancy-fisheries-monitoring).
 ### Sample Images
 
-(imgs/fish-competition.png)
+![Sample](imgs/fish-competition.png)
 - Images are organized into folders corresponding to **six distinct fish species**.
 - Number of classes: 8
 - An `OTHER` folder contains images of species **not among the six primary categories**.
