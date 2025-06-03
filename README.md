@@ -6,7 +6,9 @@ This project tackles the **localization** and **classification** of tuna fish sp
 ## Dataset
 
 The dataset used in this project comes from the [Nature Conservancy Fisheries Monitoring Challenge on Kaggle](https://www.kaggle.com/competitions/the-nature-conservancy-fisheries-monitoring).
+### Sample Images
 
+(./imgs/fish-competition.png)
 - Images are organized into folders corresponding to **six distinct fish species**.
 - Number of classes: 8
 - An `OTHER` folder contains images of species **not among the six primary categories**.
@@ -17,9 +19,7 @@ The dataset used in this project comes from the [Nature Conservancy Fisheries Mo
 
 Bounding box annotations are parsed using the `read_annotations()` function and are used to compare the predicted boxes with the ground truth.
 
-### Sample Images with Bounding Boxes
 
-![Sample Bounding Boxes](./imgs/sample_bboxes.png)
 
 > Red rectangles indicate the true fish locations provided in the annotation data.
 
