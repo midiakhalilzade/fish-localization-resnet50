@@ -42,6 +42,6 @@ The final layer has 12 outputs: 8 (classes) + 4 (bounding box).
 
 Below is a sample prediction showing the predicted bounding box (red) and the input image:
 
-![Bounding Box Result](imgs/result_sample.png)
+![Bounding Box Result](imgs/result_sample.PNG)
 
 
